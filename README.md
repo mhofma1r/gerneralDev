@@ -1,0 +1,2 @@
+# gerneralDev
+general dev enviroment
