@@ -1,0 +1,3 @@
+[submodule "codex"]
+	path = codex
+	url = git@github.com:mhofma1r/codex-docker.git
