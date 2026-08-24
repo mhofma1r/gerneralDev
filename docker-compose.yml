@@ -1,0 +1,9 @@
+services:
+  codex:
+    build:
+      context: codex
+      dockerfile: Dockerfile
+    volumes:
+      - ./codex/.codex:/home/codex/.codex
+      - ./codex/.ssh:/home/codex/.ssh
+      - ../:/project
