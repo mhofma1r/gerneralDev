@@ -7,3 +7,4 @@ services:
       - ./codex/.codex:/home/codex/.codex
       - ./codex/.ssh:/home/codex/.ssh
       - ../:/project
+      - ./inventory:/inventory
